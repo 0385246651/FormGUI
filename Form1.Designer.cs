@@ -36,6 +36,7 @@ namespace FormGUI
             // 
             // button1
             // 
+            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
             resources.ApplyResources(this.button1, "button1");
             this.button1.Name = "button1";
             this.button1.UseVisualStyleBackColor = true;
@@ -43,6 +44,7 @@ namespace FormGUI
             // 
             // dateTimePicker1
             // 
+            this.dateTimePicker1.Cursor = System.Windows.Forms.Cursors.Hand;
             resources.ApplyResources(this.dateTimePicker1, "dateTimePicker1");
             this.dateTimePicker1.Name = "dateTimePicker1";
             // 
@@ -54,7 +56,7 @@ namespace FormGUI
             this.BackgroundImage = global::FormGUI.Properties.Resources.Mèo_đen_thể_thao_trên_đường_chạy;
             this.Controls.Add(this.dateTimePicker1);
             this.Controls.Add(this.button1);
-            this.Cursor = System.Windows.Forms.Cursors.WaitCursor;
+            this.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.Name = "fMain";
             this.ResumeLayout(false);
 
